@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <style>
+        #chatbox {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 400px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        
+        .message {
+            margin-bottom: 10px;
+        }
+        
+        .user-message {
+            color: blue;
+        }
+        
+        .chatbot-message {
+            color: green;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chatbox"></div>
+    <input type="text" id="user_input" placeholder="Posez votre question ici">
+
+    <script src="brython.js"></script>
+    <script src="brython_stdlib.js"></script>
+    <script src="chatbot.py" type="text/python"></script>
+</body>
+</html>

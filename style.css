@@ -1,0 +1,87 @@
+@media (max-width: 1600px){
+    #content #chatbox {
+  float: right;
+  background-color: darkgray;
+  height: 320px;
+  width: 40%;
+  margin-right: 400px;
+  margin-top: 40px;
+  border-style: double;
+  border-color: black;
+  border-radius: 13px;
+overflow-y: scroll;
+    padding: 10px;
+}
+}
+
+body{
+    margin: 0;
+    background-color: darkgray;
+}
+
+#content{
+    background-color: #403d3d;
+    border-top-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black;
+    height: 500px;
+}
+
+#brytest{
+    background-color: #403d3d;
+    border-top-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black;
+    height: 500px;
+    padding-left: 20px;
+}
+
+/*#content #chatbox {
+  float: right;
+  background-color: darkgray;
+  height: 320px;
+  width: 40%;
+  margin-right: 400px;
+  margin-top: 40px;
+  border-style: double;
+  border-color: black;
+  border-radius: 13px;
+overflow-y: scroll;
+    padding: 10px;
+}*/
+
+#content #demande_utilisateur {
+  margin-top: 34px;
+  margin-left: 408px;
+  width: 345px;
+  border-color: black;
+  border-top-style: solid;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.User-message {
+    color: blue;
+}
+        
+.Nora-message {
+    color: green;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+p{
+    color: darkgray;
+}
